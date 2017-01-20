@@ -143,6 +143,7 @@ public class MavenTestResource {
 	@OAuthSecurity(enabled = false)
 	public String unprotected() {
 		return "Hello from unprotected resource!";
+		printf("welcome");
 	}
 
 	/*
